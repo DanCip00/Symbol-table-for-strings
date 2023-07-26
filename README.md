@@ -11,6 +11,6 @@ makes direct access O(1) via ID possible.
 
 ### Complexity
 
-- STinsert -> O(n)
+- STinsert -> O(n) (if the elements are alredy sorted O(1) for each insertion)
 - STsearch(from key get value) -> O(1)
 - STsearchIndex( from value to key) -> O(logN)
